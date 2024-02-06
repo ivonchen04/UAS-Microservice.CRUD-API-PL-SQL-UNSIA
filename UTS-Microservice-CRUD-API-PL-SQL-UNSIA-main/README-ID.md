@@ -1,11 +1,11 @@
 # Microservice-login
 Microservice login adalah sebuah proyek microservice dengan REST API untuk login, CRUD tabel users, dan manajemen akses pengguna (role: admin, member) yang dibangun di atas Python dan Flask. Proyek ini dibuat untuk menyelesaikan proyek Ujian Tengah Semester Pemrograman PL SQL.
 
-Proyek ini memanfaatkan AES 256 untuk mengenkripsi data pengguna seperti email dan password. Jadi, email dan password akan dienkripsi terlebih dahulu sebelum disimpan pada database. Mengenai proses fungsi enkripsi dan dekripsi dapat dilihat pada file [microservice-login/encryption.py](https://github.com/josikie/UTS-Microservice-CRUD-API-PL-SQL-UNSIA/blob/main/encryption.py).
+Proyek ini memanfaatkan AES 256 untuk mengenkripsi data pengguna seperti email dan password. Jadi, email dan password akan dienkripsi terlebih dahulu sebelum disimpan pada database. Mengenai proses fungsi enkripsi dan dekripsi dapat dilihat pada file [microservice-login/encryption.py](https://github.com/ivonchen04/UAS-Microservice.CRUD-API-PL-SQL-UNSIA/blob/main/encryption.py).
 
 Nama: Ivonne Caroline (210401010213)
 
-Postman Export: [Microservice.postman_collection.json](https://github.com/josikie/UTS-Microservice-CRUD-API-PL-SQL-UNSIA/blob/main/Microservice.postman_collection.json)
+Postman Export: [Microservice.postman_collection.json](https://github.com/ivonchen04/UAS-Microservice.CRUD-API-PL-SQL-UNSIA/blob/main/Microservice.postman_collection.json)
 
 ## Menyiapkan Proyek di Komputer/Laptop
 ### Clone Proyek
