@@ -11,7 +11,7 @@ Postman Export: [Microservice.postman_collection.json](https://github.com/ivonch
 ### Clone Proyek
 1. Clone proyek dengan perintah berikut:
    ```
-   git clone https://github.com/ivonchen04/UTS-Microservice.CRUD-API-PL-SQL-UNSIA.git
+   git clone https://github.com/ivonchen04/UAS-Microservice.CRUD-API-PL-SQL-UNSIA.git
    ```
 3. Buka proyek di vscode. Jika belum ada vscode, bisa di download terlebih dahulu. 
 ### Buat lingkungan virtual:
