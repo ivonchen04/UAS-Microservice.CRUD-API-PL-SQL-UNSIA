@@ -217,11 +217,7 @@
 				"value": "application/json",
 				"type": "text"
 			},
-			{
-				"key": "Authorization",
-				"value": "Bearer YOUR_ACCESS_TOKEN", // Add the necessary authorization token
-				"type": "text"
-			}
+			
 		],
 			"body": {
 			"mode": "raw",
@@ -245,7 +241,43 @@
 		}
 	},
 	"response": []
-}
+},
+		{
+			"name": "Example: Management Log Triggered",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"action\": \"management_log_trigger\",\r\n    \"timestamp\": \"2024-02-06T12:34:56Z\",\r\n    \"message\": \"Management log triggered\"\r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/microservice/management/log",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"microservice",
+						"management",
+						"log"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+},
 
 		}
 		{
